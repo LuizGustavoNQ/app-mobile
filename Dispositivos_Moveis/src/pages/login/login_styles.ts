@@ -40,27 +40,4 @@ export const Login_Styles = StyleSheet.create({
             fontSize: 18,
             fontWeight: 'bold',
       },
-      gov_box_container:{
-            width: '100%',
-            position: 'absolute',
-            bottom: 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: 5,
-      },
-      gov_box: {
-            width: '90%',
-            height: 50,
-            borderWidth: 1,
-            borderColor: COLORS.cor_principal,
-            borderRadius: 30,
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginTop: 30,
-            alignSelf: 'center',
-            
-      },
-
-      
-
 });
