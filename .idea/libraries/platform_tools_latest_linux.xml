@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="platform-tools-latest-linux">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Dispositivos_Moveis/platform-tools-latest-linux.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
