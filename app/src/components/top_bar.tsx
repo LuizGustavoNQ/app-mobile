@@ -13,8 +13,6 @@ export const Top_Bar: React.FC<Top_BarProps> = ({ title }) => {
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
                 <Text style={{ color: COLORS.branco, fontSize: 40 }}>{title}</Text>
             </View>
-
-            <View style={{ backgroundColor: '#28a745', width: '100%', height: 5, alignSelf: 'stretch', marginTop: 'auto' }} />
         </View>
     );
 }

@@ -16,11 +16,8 @@ export default function Login() {
         <View style={Login_Styles.container}>
             <Top_Bar title="Login " />
             <View style={Login_Styles.login_box}>
-
                 <Text style={{ fontSize: 25, color: COLORS.cor_principal, fontWeight: 'bold' }}>Bem-vindo! </Text>
                 <Text style={{ fontStyle: 'normal', fontSize: 15 }}>Entre com sua conta </Text>
-
-
                 <PaperInput
                     mode="outlined"
                     label="Email"
@@ -34,8 +31,6 @@ export default function Login() {
                     left={<PaperInput.Icon icon={() => (<MaterialCommunityIcons name="email-outline" size={24} color={COLORS.preto} />)} />}
                     style={Login_Styles.inputs}
                 />
-
-
                 <PaperInput
                     mode="outlined"
                     label="Senha"
